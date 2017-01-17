@@ -1,0 +1,299 @@
+/*-----Full Width Grey Header-----*/
+.logo-top {
+    font-size:14px;
+    color:#ffffff;
+    }
+.logo-top .headline {
+    font-size:28px;
+    color:#ffffff;
+    padding:20px;
+    }
+.logo-top .paragraph {
+    font-size: 14px;
+    color:#ffffff;
+    margin:5px 0;
+    }
+.logo-top a {
+    color: #ffffff;
+    }
+
+/*-----MAIN Top-----*/
+.main-top {
+    font-size:14px;
+    color:#ffffff;
+    }
+.main-top .headline {
+    font-size:28px;
+    color:#ffffff;
+    padding:20px;
+    }
+.main-top .paragraph {
+    font-size:14px;
+    color:#ffffff;
+    margin:5px 0;
+    }
+.main-top td {
+    padding: 0!important;
+    }
+.main-top a {
+    color:#ffffff;
+    }
+
+/*-----HEADER-----*/
+.headers {
+    font-size:14px;
+    color:#ffffff;
+    }
+.headers .headline {
+    font-size:28px;
+    color:#ffffff;
+    padding:20px;
+    }
+.headers .paragraph {
+    font-size: 14px;
+    color:#ffffff;
+    margin:5px 0;
+    }
+.headers a {
+    color: #ffffff;
+    }
+
+/*-----MAIN-----*/
+.main {
+    font-size:14px;
+    color:#000000;
+    }
+.main .headline {
+    font-size:28px;
+    color:#000000;
+    padding:20px;
+    }
+.main .paragraph {
+    font-size:14px;
+    color:#000000;
+    margin:5px 0;
+    padding:20px!important;
+    }
+ .main a {
+    color:#000000;
+    }
+
+/*-----FOOTER-----*/
+.footers {
+    font-size:14px;
+    color:#000000;
+    }
+.footers .headline {
+    font-size:28px;
+    color:#000000;
+    padding:20px;
+    }
+.footers .paragraph {
+    font-size:14px;
+    color:#000000;
+    margin:5px 0;
+    }
+.footers a {
+    color:#5c5c5c;
+    }
+
+/*-----ARTICLES-----*/
+.article {
+    padding: 15px 0;
+    }
+.article .headline {
+    padding:0px;
+    }
+.article .paragraph {
+    margin:5px 0;
+    }
+.article .text {
+    padding: 12px;
+    }
+.article .permalink {
+    text-align: right;
+    }
+.article a {
+    color: #ffffff;
+    }
+
+/*-----OVERALL STYLES-----*/
+a {
+    color: #ffffff;
+    }
+body {
+    margin:auto;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    -webkit-font-smoothing: antialiased;
+    }
+td {
+    border-spacing:0;
+    }
+tr {
+    border-spacing:0;
+    }
+table {
+    border-spacing:0!important;
+    border:none;
+    }
+.containerbox {
+    width:100%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    -webkit-font-smoothing: antialiased;
+    }
+
+/* Removes unwanted borders around hyperlinked images */
+a img {
+    border:0;
+    outline:none;
+    text-decoration:none;
+    }
+
+#aweber_rem {
+    margin: 0 auto;
+    }
+
+
+/*-----MEDIA QUERIES-----*/
+
+/* -Smaller Mobile Devices- */
+@media only screen and (min-width:10px) and (max-width: 400px) {
+.containerbox {
+    width:100%!important;
+    margin:auto;
+    clear:both!important;
+    display: block;
+    }
+table {
+    width:100%;
+    }
+.headline {
+    font-size:20px;
+    text-align: center!important;
+    }
+.paragraph {
+    font-size:16px;
+    }
+img {
+    height:auto!important;
+    max-height:300%;
+    max-width:100%;
+    }
+.share img {
+    width:20px!important;
+    height:auto!important;
+    display:inline-block;
+    }
+.logo-top td {
+    display: block!important;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%!important;
+    box-sizing: border-box;
+    }
+.main-top td {
+    display: block!important;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%!important;
+    box-sizing: border-box;
+    }
+.headers td {
+    display: block!important;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%!important;
+    box-sizing: border-box;
+    }
+.main td {
+    display: block!important;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%!important;
+    box-sizing: border-box;
+    }
+.footers td {
+    display: block!important;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%!important;
+    box-sizing: border-box;
+    }
+}
+
+/* -Larger Mobile Devices- */
+@media only screen and (min-width:401px) and (max-width: 500px) {
+.containerbox {
+    width:100%!important;
+    margin:auto;
+    clear:both!important;
+    display: block;
+    }
+table {
+    width:100%;
+    }
+.headline {
+    font-size:20px;
+    text-align: center!important;
+    }
+.paragraph {
+    font-size:16px;
+    }
+img {
+    height:auto!important;
+    max-height:300%;
+    max-width:100%;
+    }
+.share img {
+    width:20px!important;
+    height:auto!important;
+    display:inline-block;
+    }
+.logo-top td {
+    display: block!important;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%!important;
+    box-sizing: border-box;
+    }
+.main-top td {
+    display: block!important;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%!important;
+    box-sizing: border-box;
+    }
+.headers td {
+    display: block!important;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%!important;
+    box-sizing: border-box;
+    }
+.main td {
+    display: block!important;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%!important;
+    box-sizing: border-box;
+    }
+.footers td {
+    display: block!important;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%!important;
+    box-sizing: border-box;
+    }
+}

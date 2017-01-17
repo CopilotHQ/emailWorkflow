@@ -1,0 +1,58 @@
+.header .headline           {font-size:28px; color:#ffffff; font-weight:bold; padding:0px 15px; }
+.header .headline.link      {color:#ffffff; text-decoration:none; padding:0px;}
+.header .paragraph          {font-family:Arial, sans-serif; font-size:11px; color:#ffffff; padding:0px 10px 15px;}
+
+.main .headline             {background: #89DC45; font-size:22px; color:#ffffff; font-weight:bold; height:45px; padding:0px 10px;}
+.main .headline.link        {color:#ffffff; text-decoration:none; padding:0px;}
+.main .paragraph            {font-family:Arial, sans-serif; font-size:11px; color:#5a5a5a; padding:10px;}
+.main .article              {margin-bottom:15px; border:1px solid #8B8B8B;}
+
+.sidebar                    {font-family:Arial, sans-serif; font-size:11px; color:#5A5A5A; padding:10px 5px 10px 5px;}
+.sidebar .headline          {font-size:16px; color:#5A5A5A; font-weight:bold;}
+.sidebar .headline.link     {color:#5A5A5A; text-decoration:none; padding:0px;}
+.sidebar .paragraph         {font-family:Arial, sans-serif; font-size:11px; color:#5A5A5A; padding-bottom:15px;}
+
+.permalink                  {text-align: right;}
+
+
+
+
+body                  {max-width:600px; margin:auto; }
+td                    {cellpadding:0px; border-spacing:0px;}
+tr                    {cellpadding:0px; border-spacing:0px;}
+table                 {max-width:600px!important; border-spacing:0!important; border:none; }
+.containerbox         {width:100%; max-width:600px!important; font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
+
+
+img                   {height:auto; max-height:auto; max-width:100%;}
+.share img            {width:20px!important;height:auto!important;display:inline-block;}
+.headline             {padding:0px; font-size:30px;}
+
+
+@media only screen and (min-width:10px) and (max-width: 400px)  {
+.containerbox          {width:300px!important; max-width:300px!important; margin:0 auto!important;  clear:both!important;}
+table                  {width:100%;}
+.headline              {font-size:20px;}
+.paragraph             {font-size:16px;}
+}
+
+
+
+body                  {max-width:600px; margin:auto; }
+td                    {cellpadding:0px; border-spacing:0px;}
+tr                    {cellpadding:0px; border-spacing:0px;}
+table                 {max-width:600px!important; border-spacing:0!important; border:none; }
+.containerbox         {width:100%; max-width:600px!important; font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
+
+
+img                   {height:auto; max-height:auto; max-width:100%;}
+.share img            {width:20px!important;height:auto!important;display:inline-block;}
+.headline             {padding:0px; font-size:30px;}
+
+
+@media only screen and (min-width:10px) and (max-width: 400px)  {
+.containerbox          {width:300px!important; max-width:300px!important; margin:0 auto!important;  clear:both!important;}
+table                  {width:100%;}
+.headline              {font-size:20px;}
+.paragraph             {font-size:16px;}
+}

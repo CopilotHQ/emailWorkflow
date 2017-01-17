@@ -1,0 +1,37 @@
+a                           {color:#F50000;}
+.article                    {font-family: Trebuchet MS, Tahoma, sans-serif;}
+
+.header .headline           {font-size:30px; padding-bottom:5px; }
+.header .headline .link     {text-decoration:none;}
+.header .paragraph          {font-size: 12px; padding-bottom:20px;}
+
+.main .headline             {font-size:24px; padding-bottom:5px;}
+.main .headline .link       {text-decoration:none;}
+.main .paragraph            {font-size: 13px; padding-bottom:20px;}
+
+.sidebar .headline          {font-size:16px; padding-bottom:5px;}
+.sidebar .headline .link    {text-decoration :none;}
+.sidebar .paragraph         {font-size: 12px; padding-bottom:20px;}
+
+.permalink          {text-align: right;}
+
+
+
+body                  {max-width:600px; margin:auto; }
+td                    {cellpadding:0px; border-spacing:0px;}
+tr                    {cellpadding:0px; border-spacing:0px;}
+table                 {max-width:600px!important; border-spacing:0!important; border:none; }
+.containerbox         {width:100%; max-width:600px!important; font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
+
+
+img                   {height:auto; max-height:auto; max-width:100%;}
+.share img            {width:20px!important;height:auto!important;display:inline-block;}
+.headline             {padding:0px; font-size:30px;}
+
+
+@media only screen and (min-width:10px) and (max-width: 400px)  {
+.containerbox          {width:300px!important; max-width:300px!important; margin:0 auto!important;  clear:both!important;}
+table                  {width:100%;}
+.headline              {font-size:20px;}
+.paragraph             {font-size:16px;}
+}

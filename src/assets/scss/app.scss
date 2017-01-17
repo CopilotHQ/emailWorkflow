@@ -1,0 +1,7 @@
+@import 'settings';
+@import 'foundation-emails';
+
+table.button td {
+  transition: background-color .5s;
+  -webkit-transition: background-color .5s;
+}
